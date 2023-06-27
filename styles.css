@@ -10,10 +10,72 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
-    padding: 0 2rem;
 }
 
 /* Navbar Styles */
-#navbar {
-    
+#navbar  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem 0;
 }
+
+#navbar ul {
+    list-style: none;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    height: 20rem;
+    overflow-y: scroll;
+}
+
+#navbar li {
+    border-top: 1px solid;
+    padding: 1rem 3rem;
+}
+
+li .nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    color: #333;
+}
+
+/* Main content styles */
+#main-doc {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#main-doc header {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#main-doc header:first-child {
+    margin-top: 1.5rem;
+}
+
+.main-section {
+    margin-bottom: 2.5rem;
+}
+
+.main-section li {
+    margin-top: 2rem;
+}
+
+.intro-container,
+.prerequisite {
+    padding: 0 1.7rem;
+}
+
+.intro-container p {
+    margin-bottom: 2rem;
+}
+
+#main-doc ul {
+    padding: 0 3rem;
+}
+
+/* Prerequisite Styles */
+
