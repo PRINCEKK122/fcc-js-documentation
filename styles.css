@@ -131,3 +131,27 @@ li .nav-link {
 #reference {
     margin-bottom: 12rem;
 }
+
+/* Media Query for laptops and desktops */
+@media only screen and (min-width: 850px) {
+    #navbar {
+        width: 30rem;
+        border-right: 3px solid #98a3a2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    #navbar ul {
+        border: 0;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #main-doc {
+        position: relative;
+        top: 1.5rem;
+        margin-left: 30rem;
+    }
+}
