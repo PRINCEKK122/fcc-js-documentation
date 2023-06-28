@@ -42,7 +42,7 @@ li .nav-link {
 
 /* Main content styles */
 #main-doc {
-    padding: 0 2rem;
+    padding: 0 3rem;
     font-size: 1.5rem;
     line-height: 1.5;
 }
@@ -65,7 +65,15 @@ li .nav-link {
 }
 
 .intro-container,
-.prerequisite {
+.prerequisite,
+.programming-languages,
+.hello-world,
+.declaring-variables,
+.global-variables,
+.data-types-container,
+.if-container,
+.while-container,
+.function-container {
     padding: 0 1.7rem;
 }
 
@@ -77,5 +85,49 @@ li .nav-link {
     padding: 0 3rem;
 }
 
-/* Prerequisite Styles */
+/* Programming Languages Styles */
+.programming-languages p {
+    margin-bottom: 1.4rem;
+}
 
+.hello-world article,
+.declaring-variables article,
+.scope-container article,
+.constants article,
+.if-container article,
+.while-container article,
+.function-container article {
+    background-color: #f6f6f7;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 2rem;
+    line-height: 2;
+    margin: 1rem 0;
+    margin-left: 1rem;
+}
+
+/* Variables  */
+.variables p,
+.scope-container p,
+.declaring-variables p,
+.global-variables p,
+.constants p,
+.data-types-container p,
+.if-container p,
+.while-container p,
+.function-container p {
+    margin-bottom: 1.3rem;
+}
+
+.data-types-paragraph {
+    margin: 1.5rem 0;
+}
+
+/* while container */
+.last-paragraph {
+    margin-top: 1.2rem;
+}
+
+#reference {
+    margin-bottom: 12rem;
+}
