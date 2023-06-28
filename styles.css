@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -13,7 +15,7 @@ body {
 }
 
 /* Navbar Styles */
-#navbar  h1 {
+#navbar h1 {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
@@ -48,7 +50,7 @@ li .nav-link {
 }
 
 #main-doc header {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -74,7 +76,7 @@ li .nav-link {
 .if-container,
 .while-container,
 .function-container {
-    padding: 0 1.7rem;
+    padding: 0 1rem;
 }
 
 .intro-container p {
@@ -143,6 +145,10 @@ li .nav-link {
         bottom: 0;
     }
 
+    #main-doc header {
+        font-size: 2.5rem;
+    }
+
     #navbar ul {
         border: 0;
         height: auto;
@@ -153,5 +159,18 @@ li .nav-link {
         position: relative;
         top: 1.5rem;
         margin-left: 30rem;
+    }
+
+    .intro-container,
+    .prerequisite,
+    .programming-languages,
+    .hello-world,
+    .declaring-variables,
+    .global-variables,
+    .data-types-container,
+    .if-container,
+    .while-container,
+    .function-container {
+        padding: 0 1.7rem;
     }
 }
